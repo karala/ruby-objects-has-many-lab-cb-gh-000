@@ -7,7 +7,7 @@ class Artist
     @name = name
   end
 
-  def songs
-    @@songs
+  def songs(add_songs)
+    @@songs << add_songs
   end
 end
